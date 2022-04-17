@@ -5,39 +5,15 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:rgb(0, 0, 0);
-    background-image: url("assets/background.png");
     background-size: 100% 100%;
+    background-image: url("assets/image1.png");
     background-repeat: no-repeat;
     min-height: 100vh;
-}
-
-.content{
-    color: #ffffff;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-.content h1{
-    font-size: 100px;
-    margin-top: 80px;
-
-}
-
-.content p{
-    
-    margin: 20px auto;
-    font-weight: 100;   
-    line-height: 25px;
-
+    animation: slide 20s infinite;
 }
 
 .countdown {
@@ -46,3 +22,18 @@ body {
     font-weight: bold;
     -webkit-text-stroke: 3px black;
   }
+
+@keyframes slide {
+    25%{
+      background-image: url("assets/image2.png");
+    }
+    50%{
+      background-image: url("assets/image3.png");
+    }
+    75%{
+      background-image: url("assets/image4.png");
+    }
+    100%{
+      background-image: url("assets/image1.png");
+    }
+}
