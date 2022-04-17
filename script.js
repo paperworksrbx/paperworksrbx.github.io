@@ -21,3 +21,4 @@ tick()
 
 let timer = setInterval(tick, 1000);
 
+console.warn("Time is growing near towards the inevitable. You will see soon.")
