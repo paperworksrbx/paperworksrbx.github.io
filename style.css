@@ -13,7 +13,7 @@ body {
     background-image: url("assets/image1.png");
     background-repeat: no-repeat;
     min-height: 100vh;
-    animation: slide 20s infinite;
+    animation: slide 30s infinite;
 }
 
 .countdown {
