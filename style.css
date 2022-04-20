@@ -24,14 +24,20 @@ body {
   }
 
 @keyframes slide {
-    25%{
+    16.7%{
       background-image: url("assets/image2.png");
     }
-    50%{
+    33.3%{
       background-image: url("assets/image3.png");
     }
-    75%{
+    49.9%{
       background-image: url("assets/image4.png");
+    }
+    66.5%{
+      background-image: url("assets/image5.png");
+    }
+    83.1%{
+      background-image: url("assets/image6.png");
     }
     100%{
       background-image: url("assets/image1.png");
