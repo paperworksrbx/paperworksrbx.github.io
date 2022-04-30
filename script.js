@@ -1,4 +1,4 @@
-let eventStart = new Date("May 7, 2022 1:00:00").getTime();
+let eventStart = new Date("May 7, 2022 13:00:00").getTime();
 
 function tick () {
     let now = new Date().getTime();
